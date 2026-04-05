@@ -1,112 +1,47 @@
 # shoe-store
 High-end shoes, Adidas, Nike, Louis Vuitton, sold worldwide.
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Luxury Shoes Bahrain</title>
-  <style>
-    body { margin:0; font-family: Arial, sans-serif; background:#f5f5f5; }
-    header { background:#111; color:#fff; padding:15px; text-align:center; }
-    nav { display:flex; justify-content:center; gap:20px; background:#222; padding:10px; }
-    nav a { color:#fff; text-decoration:none; font-weight:bold; }
-    .lang { position:absolute; right:15px; top:15px; }
-    .hero { background:url('https://images.unsplash.com/photo-1542291026-7eec264c27ff') center/cover; color:white; text-align:center; padding:80px 20px; }
-    .hero h1 { font-size:40px; }
-    .container { padding:20px; }
-    .grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(200px,1fr)); gap:20px; }
-    .card { background:white; border-radius:10px; padding:15px; text-align:center; box-shadow:0 2px 5px rgba(0,0,0,0.1); }
-    .card img { width:100%; border-radius:10px; }
-    .price { color:green; font-size:18px; margin:10px 0; }
-    .btn { background:#000; color:#fff; padding:10px; border:none; cursor:pointer; border-radius:5px; }
-    .badge { color:orange; font-size:14px; }
-    footer { background:#111; color:#fff; text-align:center; padding:15px; margin-top:20px; }
-  </style>
-</head>
-<body>
+![22cd1058ae45672e5ebf73e05ee0dc28](https://github.com/user-attachments/assets/ab4fc8d8-8e15-403c-9220-c28e1745bc01)
 
-<header>
-  <h2>Luxury Shoes Bahrain</h2>
-  <div class="lang">
-    <button onclick="setLang('en')">EN</button>
-    <button onclick="setLang('ar')">AR</button>
-  </div>
-</header>
+![73198b64733366b39ea347580d53d442](https://github.com/user-attachments/assets/612e76c2-5a0d-4aec-9522-01e2c0f49264)
 
-<nav>
-  <a href="#">Men</a>
-  <a href="#">Women</a>
-  <a href="#">Sports</a>
-  <a href="#">Kids</a>
-</nav>
+![a7d8879ba99796787b8586cb57c01b63](https://github.com/user-attachments/assets/db6786d9-9259-4e7c-b1f9-c8cfabf357cc)
 
-<section class="hero">
-  <h1 id="title">Premium Collection 2026</h1>
-  <p id="subtitle">High Quality | Best Prices | Fast Delivery in Bahrain</p>
-</section>
 
-<div class="container">
-  <h2>🔥 Best Sellers</h2>
-  <div class="grid">
+ ![0ba9ef2f14a082c3f246a55f559fa00d](https://github.com/user-attachments/assets/8ea69f5d-4e76-43ec-a05c-c021564d4e0c)
 
-    <div class="card">
-      <span class="badge">🔥 120+ sold</span>
-      <img src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519">
-      <h3>Men Sneakers</h3>
-      <p class="price">15 BD</p>
-      <button class="btn" onclick="order('Men Sneakers')">Order via WhatsApp</button>
-    </div>
+  
+  
+  ![3ad4cac6c80c8ffdf7918618808a71f4](https://github.com/user-attachments/assets/0d68436c-8321-42b4-b920-b94095f8d7f0)
 
-    <div class="card">
-      <span class="badge">🔥 90+ sold</span>
-      <img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77">
-      <h3>Women Shoes</h3>
-      <p class="price">12 BD</p>
-      <button class="btn" onclick="order('Women Shoes')">Order via WhatsApp</button>
-    </div>
+  
+  
+  ![8662d30cb43b54b433e823d946ba5854](https://github.com/user-attachments/assets/dae12497-ba50-4213-bfa9-4b306c122060)
 
-    <div class="card">
-      <span class="badge">🔥 150+ sold</span>
-      <img src="https://images.unsplash.com/photo-1519741497674-611481863552">
-      <h3>Sports Shoes</h3>
-      <p class="price">18 BD</p>
-      <button class="btn" onclick="order('Sports Shoes')">Order via WhatsApp</button>
-    </div>
+  
+  
+  ![0578e2140b4441896d34dc0afeb840ec](https://github.com/user-attachments/assets/aa851a4b-b490-46d1-9e80-36e928f2b3a3)
 
-    <div class="card">
-      <span class="badge">🔥 70+ sold</span>
-      <img src="https://images.unsplash.com/photo-1584735175315-9d5df23be620">
-      <h3>Kids Shoes</h3>
-      <p class="price">10 BD</p>
-      <button class="btn" onclick="order('Kids Shoes')">Order via WhatsApp</button>
-    </div>
+  
+  
+ ![a0d6e03a1129a715dc073e08d7dac5eb](https://github.com/user-attachments/assets/04d1b48e-b0e7-4b41-b1ce-a6791548eacc)
 
-  </div>
-</div>
+  
+  
+  
+  ![332d1898ba051b1217e170eeab32f075](https://github.com/user-attachments/assets/7290f6e7-8246-43ab-8a1f-561f2d2e7090)
 
-<footer>
-  <p>📞 WhatsApp: +447401928886</p>
-</footer>
+  
+  
+  
+  
+  ![96d10b5522ea9148ed088d7d2493d97d](https://github.com/user-attachments/assets/7d831ddb-2efd-47ba-8e24-913da174ad2b)
 
-<script>
-function order(product){
-  var phone = '973XXXXXXXX'; // 替换你的号码
-  var message = 'Hello, I want to order: ' + product;
-  var url = 'https://wa.me/' + phone + '?text=' + encodeURIComponent(message);
-  window.open(url, '_blank');
-}
+  
+  ![0d9659283d8bd3b5ec1841172ee496bb](https://github.com/user-attachments/assets/e549507e-c68c-42bd-9d90-fcd4a0348b7f)
+![c602b8c52ac1c6a15179a225640ffb7e](https://github.com/user-attachments/assets/678bdb6d-6dc3-4e85-92a2-0dbc835cd0db)
 
-function setLang(lang){
-  if(lang === 'ar'){
-    document.getElementById('title').innerText = 'مجموعة 2026 المميزة';
-    document.getElementById('subtitle').innerText = 'جودة عالية | أفضل الأسعار | توصيل سريع';
-  } else {
-    document.getElementById('title').innerText = 'Premium Collection 2026';
-    document.getElementById('subtitle').innerText = 'High Quality | Best Prices | Fast Delivery in Bahrain';
-  }
-}
-</script>
+  
+  
+  <p>📞 WhatsApp: +447401928886
 
-</body>
-</html>
+
